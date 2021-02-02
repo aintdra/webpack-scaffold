@@ -1,19 +1,16 @@
 {
-  "name": "cekcok",
+  "name": "webpack-scaffold",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Base configuration for Webpack 5",
+  "private": true,
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "start": "webpack-dev-server --open",
     "watch": "webpack --watch --mode=development",
     "prod": "webpack --mode=production"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Hendra",
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -42,9 +39,5 @@
     "webpack": "^5.19.0",
     "webpack-cli": "^4.4.0",
     "webpack-manifest-plugin": "^3.0.0"
-  },
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
   }
 }
