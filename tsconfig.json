@@ -19,12 +19,5 @@
         "skipLibCheck": true,
         "strict": true,
         "target": "es5"
-    },
-    "exclude": [
-        "./public/",
-        "./assets/js/",
-    ],
-    "include": [
-        "./assets/"
-    ]
+    }
 }
