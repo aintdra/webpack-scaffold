@@ -5,9 +5,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-  entry: {
-    app: './assets/app.ts',
-  },
+  entry: {}, // string, {[key]: value}, string[]
   devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
@@ -78,7 +76,7 @@ module.exports = {
   },
   output: {
     publicPath: '',
-    path: path.resolve(__dirname, 'public/assets/builds/frontend/'),
+    path: path.resolve(__dirname, 'path/to/outdir'),
     filename: '[name].js',
     assetModuleFilename: '[hash][ext][query]', // 'images/[hash][ext][query]',
   },
