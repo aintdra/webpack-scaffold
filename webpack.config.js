@@ -15,7 +15,7 @@ module.exports = {
       {
         test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
-        use: ['babel-loader'], // You can simply use 'awesome-typescript-loader' here as an alternative
+        use: ['babel-loader'], // alternatively 'awesome-typescript-loader'
       },
       {
         test: /\.([s]c)ss$/i,
